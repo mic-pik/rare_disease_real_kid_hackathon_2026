@@ -1,0 +1,15 @@
+-c evo-constraints.txt
+# Direct dependency versions from the recorded execution environment.
+torch==2.7.1+cu128
+flash-attn==2.8.0.post2
+evo2==0.6.0
+vtx==1.1.0
+einops==0.8.1
+pysam==0.24.1
+pandas==3.0.6
+pyarrow==26.0.0
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+joblib==1.6.0

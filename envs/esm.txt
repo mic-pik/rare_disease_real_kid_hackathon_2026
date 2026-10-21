@@ -1,0 +1,8 @@
+-c esm-constraints.txt
+# Direct dependency versions from the recorded execution environment.
+torch==2.14.1
+transformers==5.19.0
+pandas==3.0.6
+pyarrow==26.0.0
+numpy==2.5.4
+huggingface-hub==1.33.0

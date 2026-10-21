@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "purpose": "Prespecified uncapped-genetics and unsigned pathway ablations; five new disease families held out from the earlier six development cases. Not a temporal or publication holdout.",
+  "genetics_min_score": 0.1,
+  "baseline_gene_limit": 50,
+  "pathway_min_genes": 2,
+  "pathway_max_genes": 100,
+  "pathway_weight": 0.5,
+  "excluded_top_levels": ["Disease", "Drug ADME"],
+  "primary_metric": "macro_recall@10",
+  "promotion_rule": "Positive mean heldout paired recall@10 difference and positive lower 95% paired-bootstrap bound versus both capped and uncapped target overlap; no promotion to clinical or MVA-rescue status.",
+  "bootstrap_seed": 20261019,
+  "bootstrap_samples": 10000,
+  "queries": [
+    {"disease_id": "MONDO_0009061", "name": "cystic fibrosis", "split": "development", "family_root": "MONDO_0005087"},
+    {"disease_id": "MONDO_0008383", "name": "rheumatoid arthritis", "split": "development", "family_root": "MONDO_0005554"},
+    {"disease_id": "MONDO_0005148", "name": "type 2 diabetes mellitus", "split": "development", "family_root": "MONDO_0005015"},
+    {"disease_id": "MONDO_0004979", "name": "asthma", "split": "development", "family_root": "MONDO_0005087"},
+    {"disease_id": "MONDO_0005180", "name": "Parkinson disease", "split": "development", "family_root": "MONDO_0021095"},
+    {"disease_id": "MONDO_0005439", "name": "familial hypercholesterolemia", "split": "development", "family_root": "MONDO_0037748"},
+    {"disease_id": "MONDO_0005041", "name": "glaucoma", "split": "heldout", "family_root": "MONDO_0005328"},
+    {"disease_id": "MONDO_0005298", "name": "osteoporosis", "split": "heldout", "family_root": "MONDO_0800486"},
+    {"disease_id": "MONDO_0004247", "name": "peptic ulcer disease", "split": "heldout", "family_root": "MONDO_0043839"},
+    {"disease_id": "MONDO_0018874", "name": "acute myeloid leukemia", "split": "heldout", "family_root": "MONDO_0010643"},
+    {"disease_id": "MONDO_0005300", "name": "chronic kidney disease", "split": "heldout", "family_root": "MONDO_0005240"}
+  ],
+  "direction_constraints": []
+}

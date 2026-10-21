@@ -1,0 +1,37 @@
+[
+  {
+    "repo_id": "facebook/esm1v_t33_650M_UR90S_1",
+    "revision": "8bfdb1892536cc77bd0760b9c25ddced2cd0b4c8",
+    "destination": "track1/models/esm1v_t33_650M_UR90S_1"
+  },
+  {
+    "repo_id": "facebook/esm1v_t33_650M_UR90S_2",
+    "revision": "3c1e9e64480f069b163e456c361bfd80a8bab04c",
+    "destination": "track1/models/esm1v_t33_650M_UR90S_2"
+  },
+  {
+    "repo_id": "facebook/esm1v_t33_650M_UR90S_3",
+    "revision": "0b00fd112e63f6b5e70a9cd8484d4e660312ce70",
+    "destination": "track1/models/esm1v_t33_650M_UR90S_3"
+  },
+  {
+    "repo_id": "facebook/esm1v_t33_650M_UR90S_4",
+    "revision": "443968f644da132d323bbc6321a6d443149fa57b",
+    "destination": "track1/models/esm1v_t33_650M_UR90S_4"
+  },
+  {
+    "repo_id": "facebook/esm1v_t33_650M_UR90S_5",
+    "revision": "fb2e51cb0f605cbad2c4ca3bb784be7bc8e2f4a8",
+    "destination": "track1/models/esm1v_t33_650M_UR90S_5"
+  },
+  {
+    "repo_id": "arcinstitute/evo2_7b",
+    "revision": "bda0089f92582d5baabf0f22d9fc85f3588f6b58",
+    "destination": "track1/models/evo2_7b"
+  },
+  {
+    "repo_id": "meta-models/Muse-Glimmer-30B",
+    "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+    "destination": "mva_llm/models/reasoning"
+  }
+]

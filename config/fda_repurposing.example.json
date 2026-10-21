@@ -1,0 +1,7 @@
+{
+  "fda_zip": "../inputs/drugsatfda.zip",
+  "chembl_db": "../gene_mol/data/chembl37_db/chembl_37/chembl_37_sqlite/chembl_37.db",
+  "sibling_table": "../mva_llm/data/kg/sibling_diseases.parquet",
+  "genes": ["BUB1B", "BUB1", "MAD2L1", "SIRT2", "AURKB", "PLK1", "TTK", "WEE1", "CHEK1"],
+  "sibling_diseases": ["Fanconi anemia", "Ataxia-telangiectasia", "Bloom syndrome", "Werner syndrome"]
+}

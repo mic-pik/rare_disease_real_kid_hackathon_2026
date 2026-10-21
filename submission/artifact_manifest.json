@@ -1,0 +1,42 @@
+{
+  "scientific_workflow_version": "0.4.1",
+  "automatic_export_workflow_version": "0.5.0",
+  "artifacts": [
+    {
+      "file": "working_variant_automatic_track1.csv",
+      "source": "rare_real/submission/working_variant_automatic_track1.csv",
+      "original_sha256": "15974b7e454d60915acadb493946bf2135275184c0f26da840ad842e11f7e031",
+      "packaged_sha256": "15974b7e454d60915acadb493946bf2135275184c0f26da840ad842e11f7e031",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "file": "working_variant_automatic_track1_report.md",
+      "source": "rare_real/submission/working_variant_automatic_track1_report.md",
+      "original_sha256": "4efc9407ec89055edd83a96470d61484afcced540e0126cf54d4c1b5bd7022ae",
+      "packaged_sha256": "0a0af3626db6dec3b655643bddbe2d9904ea04a027e3c21c869b4adcaf55aebd",
+      "transformation": "Clinical feature narrative generalised: individual proband phenotype terms removed from the phenotype-ranking and sensitivity sections; scores, methods and conclusions unchanged. Original source hash retained."
+    },
+    {
+      "file": "working_variant_automatic_track1_epcr_audit.json",
+      "source": "rare_real/submission/working_variant_automatic_track1_epcr_audit.json",
+      "original_sha256": "49a74f3958e6a4a597ea60134a56af6ffa5655c17d71cb8eb90b93a563629def",
+      "packaged_sha256": "49a74f3958e6a4a597ea60134a56af6ffa5655c17d71cb8eb90b93a563629def",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "file": "working_variant_track2_report.md",
+      "source": "rare_real/work/patient/unified_20261016/working_variant_track2_report.md",
+      "original_sha256": "3f0037db0aedb5c5b957f872eb556446428963616beb26858f8729356c406afb",
+      "packaged_sha256": "27c197716ddcdefe3312c8694c01d6639399c93ff11afe00cc83c3c8a2178549",
+      "transformation": "Generative AI disclosure moved before the abstract and reformatted to match Track 1; original source hash retained."
+    },
+    {
+      "file": "working_variant_track2_repurposing_addendum.md",
+      "source": "new local synthesis of public expression analysis and source review, 2026-10-19",
+      "original_sha256": "bf38047f3183e68b2fb08f0397b424ce5fdf00b43c2b31d14c2f141415162330",
+      "packaged_sha256": "bf38047f3183e68b2fb08f0397b424ce5fdf00b43c2b31d14c2f141415162330",
+      "transformation": "New follow-up addendum; not part of historical automatic run. No replacement nominated; original artifacts unchanged."
+    }
+  ],
+  "audit_trail": "The recorded e2e_enriched_v4 run artifacts are retained privately and are not distributed here. They embedded the proband clinical narrative, HPO terms and variant-level calls, which remain subject to the dataset access conditions. Their recorded hashes are listed in the run manifest held with the private artifacts."
+}

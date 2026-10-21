@@ -1,0 +1,6 @@
+var_key	genes	score	tier	consequence	zygosity	max_af	dp	gq
+15:10000:A:G	BUB1B	0.94	high	stop_gained	het	0.0001	40	99
+15:90000:C:T	BUB1B	0.08	low	missense_variant	het		40	99
+17:10000:C:T	BRCA1	0.98	high	stop_gained	het	0.0001	40	99
+7:10000:C:T	CFTR	0.97	high	missense_variant	het	0.0001	40	99
+12:10000:C:T	CEP57	0.15	low	missense_variant	het	0.0001	40	99

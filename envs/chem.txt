@@ -1,0 +1,11 @@
+-c chem-constraints.txt
+# Direct dependency versions from the recorded execution environment.
+laplaciannb==0.8.0
+rdkit==2026.9.1
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==26.0.0
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+tqdm==4.70.1

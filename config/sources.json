@@ -1,0 +1,73 @@
+[
+  {
+    "group": "references",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/weekly/clinvar_20261004.vcf.gz",
+    "destination": "track1/ref/clinvar/clinvar.vcf.gz",
+    "checksum": "c665dba2aa11f745fc38a6973af8025e",
+    "algorithm": "md5"
+  },
+  {
+    "group": "references",
+    "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+    "destination": "track1/ref/grch38/GRCh38.primary_assembly.fa.gz",
+    "checksum": "d8c3af0094a7bba6125763bad779ec18a81483c739c6ed122094bdf86c187b92"
+  },
+  {
+    "group": "references",
+    "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+    "destination": "track1/ref/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+    "checksum": "7991ab37d09986eefdb5c77032b15370ab0e99918b78f235f3230c0302851c96"
+  },
+  {
+    "group": "references",
+    "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/pep/CHECKSUMS",
+    "destination": "track1/ref/pep/CHECKSUMS"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo",
+    "destination": "mva_llm/data/raw/hpo/hp.obo",
+    "checksum": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/genes_to_phenotype.txt",
+    "destination": "mva_llm/data/raw/hpo/genes_to_phenotype.txt",
+    "checksum": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_sqlite.tar.gz",
+    "destination": "gene_mol/data/chembl37_raw/chembl_37_sqlite.tar.gz",
+    "checksum": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+    "algorithm": "sha256"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://zenodo.org/records/2543724/files/pubchem.chembl.dataset4publication_inchi_smiles_v2.tsv.xz?download=1",
+    "destination": "gene_mol/data/excape_raw/excape_v2.tsv.xz",
+    "checksum": "a3765226947394676c3947da464af94702f4bd340882c0a4fdd1dbbcd4fe54de"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://ndownloader.figshare.com/files/51064667",
+    "destination": "gene_mol/data/depmap_raw/crispr_gene_effect.csv",
+    "checksum": "3d8f3ec6dbf2db7ff834b79b508622ec0b226f3518003fe96ecf5a4fcf167e3b"
+  },
+  {
+    "group": "knowledge",
+    "url": "https://www.orphadata.com/data/xml/en_product6.xml",
+    "destination": "gene_mol/data/orphanet/en_product6.xml",
+    "checksum": "f1c039f78683beea7ca5b34d1c01c4ec98f80e8ca488eee69770074db1020e39"
+  },
+  {
+    "group": "supplements",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
+    "destination": "mva_llm/data/raw/supplements/PMC4194088.html"
+  },
+  {
+    "group": "supplements",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/14180/property/IsomericSMILES/JSON",
+    "destination": "mva_llm/data/raw/supplements/nmn_pubchem.json"
+  }
+]

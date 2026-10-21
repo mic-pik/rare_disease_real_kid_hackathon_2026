@@ -1,0 +1,177 @@
+{
+  "review_date": "2026-10-19",
+  "review_method": "Source-level review by the coding assistant; explicit curator inputs, not independent expert validation or automated efficacy predictions.",
+  "objective": "Prioritise experiments addressing constitutional BUB1B-related segregation failure with growth preserved. No patient-specific clinical recommendation.",
+  "sources": {
+    "metformin_fa": {
+      "title": "Pollard et al. 2022: metformin in Fanconi anaemia",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9631552/",
+      "type": "primary_clinical_study",
+      "locator": "Results: Treatment response; chromosomal breakage and micronucleus analyses"
+    },
+    "metformin_pk": {
+      "title": "Metformin hydrochloride prescribing information: pharmacokinetics",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=cce3253c-0d18-4c77-8b5c-79bafd5f9ed8&type=display",
+      "type": "product_label",
+      "locator": "Clinical pharmacology: Distribution; historical label, not a complete current prescribing review"
+    },
+    "metformin_safety": {
+      "title": "Metformin hydrochloride label, version 6",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=400ff9dc-9789-44ac-afb5-730b632a1667&version=6",
+      "type": "product_label",
+      "locator": "Boxed warning and contraindications"
+    },
+    "amifostine_cells": {
+      "title": "Amifostine protection against mitomycin-induced breakage in FA lymphocytes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6245386/",
+      "type": "primary_cell_study",
+      "locator": "Results and Discussion; Micronucleus assay methods and Figure 1"
+    },
+    "amifostine_trial": {
+      "title": "NCT00006127: amifostine in Fanconi anaemia",
+      "url": "https://clinicaltrials.gov/study/NCT00006127",
+      "type": "trial_registry",
+      "locator": "API v2 retrieved 2026-10-19: overallStatus UNKNOWN; last update 2005-06-24; hasResults false"
+    },
+    "amifostine_label": {
+      "title": "ETHYOL prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a17563f2-d231-4385-bc94-0217be78b89d&type=display",
+      "type": "product_label",
+      "locator": "Sections 5 and 12; revision July 2023"
+    },
+    "nr_at": {
+      "title": "Long-term nicotinamide riboside in ataxia telangiectasia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37899683/",
+      "type": "primary_clinical_study",
+      "locator": "Abstract: actual intervention NR, not niacinamide"
+    },
+    "north": {
+      "title": "North et al. 2014: SIRT2, NAD+ and BubR1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
+      "type": "primary_mechanistic_study",
+      "locator": "Local full-text cache PMID 24825348; nicotinamide and NMN interventions kept separate"
+    },
+    "esac": {
+      "title": "BubR1 recruitment via Bub1 enhances checkpoint signalling",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9582629/",
+      "type": "primary_engineered_cell_study",
+      "locator": "Drug and RNAi treatments: rapamycin induces dimerisation of engineered eSAC constructs"
+    },
+    "ceritinib_pk": {
+      "title": "ZYKADIA prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e&type=pdf",
+      "type": "product_label",
+      "locator": "Section 12.3: 97% plasma-protein binding; no exposure margin inferred here"
+    },
+    "ceritinib_assay": {
+      "title": "Original study associated with local ceritinib/BUB1B assay",
+      "url": "https://doi.org/10.1016/j.ejmech.2025.117247",
+      "type": "local_chembl_assay_metadata",
+      "locator": "Upstream measured_interactions.parquet: CHEMBL2403108, BUB1B, PMID 39818011. Full paper not inspected; numerical claim comes from local assay row."
+    },
+    "aneuploid_metformin": {
+      "title": "Tang et al. 2011: energy and proteotoxic stress in aneuploid cells",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3532042/",
+      "type": "primary_cell_study",
+      "locator": "Results: metformin impaired accumulation of trisomy 13 and 16 mouse cells; Figure S1A/Table S1 referenced by main text. Supplementary doses not independently extracted."
+    },
+    "aneuploid_stress": {
+      "title": "Li et al. 2010: ATM-p53 suppresses aneuploidy-induced tumorigenesis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2922543/",
+      "type": "primary_mechanistic_study",
+      "locator": "Abstract and Results: ROS-dependent ATM-p53 response in experimental aneuploidy models; not patient-specific evidence."
+    },
+    "local_stress_audit": {
+      "title": "Local stress-phenotype assessment, 2026-10-19",
+      "path": "docs/STRESS_PHENOTYPE_ASSESSMENT.md",
+      "type": "local_data_audit",
+      "locator": "Repository inventory and runs/stress_phenotype_20261019/summary.json; no patient stress measurements found in inspected data."
+    }
+  },
+  "candidate_reviews": {
+    "CHEMBL1431": {
+      "tier": 2,
+      "decision": "defer_transfer",
+      "reason": "Defer advancement until a relevant deficient-cell stress phenotype and preserved-growth rescue can be tested. The local audit did not establish that phenotype, and aneuploid-cell antiproliferation is counterevidence.",
+      "support": "A six-month, single-arm Fanconi study treated 14 people; 4/13 evaluable participants had a haematologic response (30.8%; 90% CI 11.3-57.3). This supports investigating transfer, not efficacy in BUB1B deficiency. [metformin_fa]",
+      "counter": "There was no statistically significant cohort-level change in induced chromosome breakage or buccal micronuclei. No randomised comparator; only six months of observation. FA repair failure differs from spindle-checkpoint failure. [metformin_fa] Metformin also impaired accumulation of trisomy 13 and 16 mouse cells in a separate primary study; this is an antiproliferation concern, not proof of harm in MVA or at clinical exposure. Local JUMP BUB1B morphology is marked unusable; LINCS contains separate perturbations, not paired rescue. [aneuploid_metformin; local_stress_audit]",
+      "exposure_status": "human_exposure_documented_but_rescue_exposure_unknown",
+      "exposure": "Oral exposure is established. Labelled usual steady-state plasma concentrations are generally below 1 microgram/mL, with negligible protein binding. Assuming free-base molecular weight 129.16 g/mol, 1 microgram/mL equals approximately 7.74 micromolar; this is a plasma reference, not tissue exposure or an effective MVA concentration. Reject translation based solely on millimolar culture effects. [metformin_pk]",
+      "safety_status": "known_material_risks_not_patient_assessed",
+      "safety": "The FA study observed gastrointestinal effects without attributed grade >=3 events. The product label warns about lactic acidosis and renal impairment; disease-specific suitability remains unestablished. [metformin_fa; metformin_safety]",
+      "decisive_experiment": "First confirm that the deficient model has a measurable secondary metabolic/oxidative-stress phenotype. Compare drug and vehicle in deficient and corrected cells with verified exposure. Require fewer segregation errors per division with preserved proliferation and viability. Include a proliferation-matched control. Stop prioritising if only stress markers improve or benefit requires implausible exposure. This is an experiment proposal, not a dose recommendation. Measure absolute surviving-cell and division counts alongside per-division errors to detect selective loss of abnormal cells. A lower stress signal alone must not count as rescue: ROS/ATM-p53 signalling can also constrain proliferation of aneuploid cells. [aneuploid_stress; aneuploid_metformin]",
+      "source_ids": [
+        "metformin_fa",
+        "metformin_pk",
+        "metformin_safety",
+        "aneuploid_metformin",
+        "aneuploid_stress",
+        "local_stress_audit"
+      ]
+    },
+    "CHEMBL1006": {
+      "tier": 2,
+      "decision": "defer_transfer",
+      "reason": "Retain as a secondary cytoprotection hypothesis or assay comparator; evidence does not yet justify chronic constitutional rescue development.",
+      "support": "A small ex-vivo study used samples from seven FA donors and six controls, with five per assay. Pretreatment reduced mitomycin-induced micronuclei. [amifostine_cells]",
+      "counter": "Baseline micronuclei did not significantly improve, and altered cell-cycle progression complicates interpretation. The study used 1.2 mg/mL amifostine for 30 minutes; its text has inconsistent mitomycin concentration reporting. The old trial registry has no posted results, so registration supplies no clinical response estimate. [amifostine_cells; amifostine_trial]",
+      "exposure_status": "large_unresolved_exposure_and_duration_gap",
+      "exposure": "The approved product is intravenous and converted to active WR-1065. Parent plasma elimination is approximately eight minutes. Neither sustained relevant tissue exposure nor a valid margin to the ex-vivo experiment is established; parent and metabolite exposures cannot be interchanged. [amifostine_label]",
+      "safety_status": "known_material_risks_not_patient_assessed",
+      "safety": "Hypotension, nausea/vomiting and serious reactions constrain feasibility. The label also cautions about interference with antitumour therapy; broad tumour protection cannot be assumed absent. [amifostine_label]",
+      "decisive_experiment": "Only if oxidative damage is demonstrably relevant, compare spontaneous and induced damage separately in deficient and corrected cells. Verify prodrug conversion and measure segregation per division with growth controls. Protection against an added genotoxin alone is insufficient to advance the constitutional-rescue hypothesis.",
+      "source_ids": [
+        "amifostine_cells",
+        "amifostine_trial",
+        "amifostine_label"
+      ]
+    },
+    "CHEMBL1140": {
+      "tier": 4,
+      "decision": "reject_retrieval_rationale",
+      "reason": "Reject advancement based on NAD-precursor name transfer or combination-product approval; niacinamide, NR and NMN are distinct interventions.",
+      "support": "The local sibling table associates niacinamide with ataxia telangiectasia, but that row is indication metadata without an extracted clinical endpoint. It is a retrieval lead only.",
+      "counter": "The positive long-term A-T study reviewed here administered nicotinamide riboside, not niacinamide. This does not prove the original metadata row was erroneous, but it cannot substantiate it. North et al. used high-dose nicotinamide as a sirtuin-inhibitory perturbation with reduced BubR1, whereas NMN was a different intervention. [nr_at; north]",
+      "exposure_status": "no_valid_rescue_exposure_comparison",
+      "exposure": "Local SIRT2 assays contain inhibitory measurements with variable potencies and quality flags; these do not establish a beneficial exposure. The frozen FDA catalogue supports combination components only, with no current standalone product in this mapping.",
+      "safety_status": "not_established_for_proposed_mechanism",
+      "safety": "Neither dietary-vitamin status nor availability in an approved combination establishes safety of a mechanistically effective standalone regimen. The inhibitory experiment is not evidence that every exposure is harmful.",
+      "decisive_experiment": "Use as an identity/direction control, not a nominated rescue candidate. Any reconsideration requires compound-specific beneficial functional evidence and independent product/exposure review.",
+      "source_ids": [
+        "nr_at",
+        "north"
+      ]
+    },
+    "CHEMBL413": {
+      "tier": 4,
+      "decision": "reject_retrieval_rationale",
+      "reason": "The current retrieval supplies transplant-related use and non-rescue measurements; engineered rapamycin-triggered checkpoint experiments do not establish drug rescue.",
+      "support": "Sirolimus is present in the FDA catalogue and the local Fanconi table, where its stated purpose is graft-versus-host-disease prophylaxis. That is exposure-context metadata, not a segregation endpoint.",
+      "counter": "In the reviewed eSAC study, rapamycin induced dimerisation of engineered kinase/phosphodomain constructs. The checkpoint response depended on that synthetic system; it cannot be attributed to therapeutic rescue by sirolimus in unengineered cells. [esac]",
+      "exposure_status": "no_qualifying_rescue_endpoint_for_pk_comparison",
+      "exposure": "The engineered study used 500 nM rapamycin. Comparing that number with clinical exposure would not validate the proposed mechanism because the required constructs are absent. No native-cell rescue exposure was established. [esac]",
+      "safety_status": "not_fully_reviewed_no_safety_endorsement",
+      "safety": "A full label and interaction review was not pursued after the current rescue rationale failed. FDA product status is retained without a safety endorsement.",
+      "decisive_experiment": "Reconsider only with independent evidence that mTOR modulation improves native deficient-cell segregation while preserving growth; engineered dimerisation and tumour-growth inhibition do not meet this requirement.",
+      "source_ids": [
+        "esac"
+      ]
+    },
+    "CHEMBL2403108": {
+      "tier": 4,
+      "decision": "reject_retrieval_rationale",
+      "reason": "The direct BUB1B record is weak inhibition, which supplies no rationale for restoring deficient checkpoint function.",
+      "support": "The local original ChEMBL assay reports ceritinib BUB1B IC50 = 13,080 nM and annotates inhibition. This is a real retrieval match, not functional rescue. [ceritinib_assay]",
+      "counter": "The measurement lies in the operational weak-potency band. Inhibiting a deficient checkpoint protein does not itself support the restoration objective; no compensatory rescue evidence was supplied. The full source paper was not independently inspected.",
+      "exposure_status": "unbound_target_exposure_not_established",
+      "exposure": "Ceritinib is 97% plasma-protein bound. A total plasma concentration cannot be compared directly with a biochemical IC50 as proof of achievable target inhibition. No justified unbound tissue exposure margin was calculated. [ceritinib_pk]",
+      "safety_status": "not_fully_reviewed_no_safety_endorsement",
+      "safety": "Clinical safety and chronic suitability were not established. The current rationale is rejected on mechanism and evidence grounds without assuming that approval makes it suitable.",
+      "decisive_experiment": "No rescue experiment is prioritised from this record. Reconsider only if an independent mechanism yields reproducible segregation rescue with preserved growth and a defensible exposure margin.",
+      "source_ids": [
+        "ceritinib_assay",
+        "ceritinib_pk"
+      ]
+    }
+  }
+}

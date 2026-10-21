@@ -1,0 +1,14 @@
+{
+  "patient_vcf": "inputs/patient.vcf.gz",
+  "case": "inputs/case.json",
+  "cpus": 8,
+  "tp": 4,
+  "seed": 17,
+  "output": "runs/case",
+  "python": {
+    "esm": "track1/.venv/bin/python",
+    "evo": "track1/.venv-evo2/bin/python",
+    "chem": "gene_mol/.venv/bin/python",
+    "reasoning": "mva_llm/.venv-vllm/bin/python"
+  }
+}

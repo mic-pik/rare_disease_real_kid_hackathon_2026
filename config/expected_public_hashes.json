@@ -1,0 +1,23 @@
+{
+  "mva_llm/data/kg/clinvar_full.parquet": "3ae560effe45e5dbccb45889ca2299c4a5ba86e27cc8b64f625597ba25763c72",
+  "mva_llm/data/kg/codependency.parquet": "7a7b527ecc574c9a0784ecced7376c84912324ac143fe963c777cff8d18d32b1",
+  "mva_llm/data/kg/diseases.parquet": "02e796e3720a577cb48b570ca6b894fae3f36f85e4ae43e56118bea62b38f245",
+  "mva_llm/data/kg/drug_disease.parquet": "b7bd149b938e833cfe4256e0bdd56f19fdd5c256ba0ffcb7f25a0e47bec0ff56",
+  "mva_llm/data/kg/drug_safety.parquet": "28d3b16b8d2e7a174fffae85cb02d3ab73e1da4178af7aaa6b00200e5b232963",
+  "mva_llm/data/kg/drug_safety_atc.parquet": "42e276440c95dfb9ee540fb44c13401e9b352f1a754aca8ecb2634f019c5346d",
+  "mva_llm/data/kg/drug_safety_indications.parquet": "2b1b1f66ceb8a33e155b80aef592d33c26d9f9b1c62bb17bb2af8eb4f33653ed",
+  "mva_llm/data/kg/drug_safety_warnings.parquet": "9b45d3b100b95db6bbbe9724a1f964a04da78021dad2afdd5939f072c1e84bfc",
+  "mva_llm/data/kg/drug_target.parquet": "c39184284640482642ecf7d0b9ff80ca0a7d675e82c47b0663b3c04fa0f812e3",
+  "mva_llm/data/kg/drugs.parquet": "9b1ee3bcf624e5392a244f3848d371691d61b9ee198e67be638f3065bc3c50a8",
+  "mva_llm/data/kg/gene_disease.parquet": "c80af5455df84b722454620b02281b5db4a3df12bf9228e1f1c2cad1983082b1",
+  "mva_llm/data/kg/gene_disease_evidence.parquet": "a3cd294c27730139eb4d7f9dac363c28996d56ebaeb55f552f09ef2ebf33fe18",
+  "mva_llm/data/kg/gene_pathway.parquet": "4960e90b2fa06fb155f765086ece1e070fd11c185cdbded379ffbd460ff4d270",
+  "mva_llm/data/kg/gene_phenotype.parquet": "6ea2064c36d8c7a2509a646004ed4cab6ee9cc47f81506c0701970863b78da47",
+  "mva_llm/data/kg/genes.parquet": "ee33267ee5222bf773fffa691827f8fcab11d59c49de50f38855817024b3e421",
+  "mva_llm/data/kg/literature.parquet": "98ce720013efd36dede37dab84dc5929d58cc84f4a5f02273f7549e4fe42c29b",
+  "mva_llm/data/kg/sibling_diseases.parquet": "34a3f366dc77ba4a60b9594f1c4c73037c9beffa9125f0ffb0d7691e74564c7f",
+  "mva_llm/data/raw/hpo/genes_to_phenotype.txt": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c",
+  "mva_llm/data/raw/hpo/hp.obo": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+  "mva_llm/data/unified_public_v1/fulltext/24825348.json": "081681d28f6d8cafeef8c3a40bf3fdf5a1e663eb565ef703da8b1fcb11805572",
+  "mva_llm/data/unified_public_v1/identities.json": "9e546a71d6a69d6b182268df376767ce4718acc9a5bedba77ccb5ec06de64ed2"
+}

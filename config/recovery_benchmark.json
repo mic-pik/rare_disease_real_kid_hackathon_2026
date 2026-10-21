@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Fixed retrospective development pilot; indication links withheld from rankers, not a temporal or publication-held-out efficacy test.",
+  "genetics_min_score": 0.1,
+  "max_genes_per_disease": 50,
+  "diseases": [
+    {"disease_id": "MONDO_0009061", "name": "cystic fibrosis"},
+    {"disease_id": "MONDO_0008383", "name": "rheumatoid arthritis"},
+    {"disease_id": "MONDO_0005148", "name": "type 2 diabetes mellitus"},
+    {"disease_id": "MONDO_0004979", "name": "asthma"},
+    {"disease_id": "MONDO_0005180", "name": "Parkinson disease"},
+    {"disease_id": "MONDO_0005439", "name": "familial hypercholesterolemia"}
+  ],
+  "sentinels": [
+    {"disease_id": "MONDO_0009061", "ingredient_id": "CHEMBL2010601", "name": "IVACAFTOR", "scope": "CF with an ivacaftor-responsive CFTR mutation; broad disease recovery does not test variant eligibility.", "source": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ab0c9f8-3eee-4e0f-9f3f-c1e16aaffe25&version=36"},
+    {"disease_id": "MONDO_0005148", "ingredient_id": "CHEMBL1431", "name": "METFORMIN", "scope": "Adjunct to diet and exercise for glycaemic control in type 2 diabetes; not constitutional defect correction.", "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53bde438-4277-f418-e063-6394a90a5ea2"}
+  ]
+}

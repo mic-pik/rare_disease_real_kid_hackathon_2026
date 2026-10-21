@@ -1,0 +1,12 @@
+-c reasoning-constraints.txt
+# Direct dependency versions from the recorded execution environment.
+vllm==0.31.0
+torch==2.13.0
+transformers==5.17.0
+numpy==2.3.5
+pandas==3.0.6
+pyarrow==26.0.0
+scikit-learn==1.9.1
+scipy==1.18.1
+rdkit==2026.9.1
+huggingface-hub==1.33.0

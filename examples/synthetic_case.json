@@ -1,0 +1,7 @@
+{
+  "case_id": "SYNTHETIC-DEVELOPMENT-001",
+  "data_class": "synthetic",
+  "phenotype": "Artificial research fixture with short stature and rhabdomyosarcoma. These are selected public disease features, not an individual patient record.",
+  "observed_hpo": ["HP:0004322", "HP:0002859"],
+  "note": "All variant coordinates and pathogenicity scores in synthetic_variants.tsv are fabricated. No clinical inference is valid. This fixture is development-only, not a benchmark of diagnostic accuracy."
+}

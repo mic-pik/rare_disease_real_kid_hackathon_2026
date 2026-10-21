@@ -1,0 +1,25 @@
+# Recorded transitive package versions; no package source URLs or credentials.
+CairoSVG==2.9.1
+cairocffi==1.7.1
+cffi==2.1.1
+cloudpickle==3.1.2
+cssselect2==0.10.1
+defusedxml==0.7.1
+h5py==3.16.0
+joblib==1.6.0
+laplaciannb==0.8.0
+narwhals==2.27.1
+numpy==2.4.6
+pandas==3.0.6
+pillow==12.3.0
+pyarrow==26.0.0
+pycparser==3.11
+python-dateutil==2.9.0.post0
+rdkit==2026.9.1
+scikit-learn==1.9.1
+scipy==1.17.1
+six==1.17.0
+threadpoolctl==3.7.0
+tinycss2==1.5.1
+tqdm==4.70.1
+webencodings==0.6.1

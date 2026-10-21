@@ -1,0 +1,13 @@
+{
+  "base_url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/26.09/output",
+  "tables": [
+    "target",
+    "disease",
+    "association_overall_direct",
+    "association_by_datatype_direct",
+    "drug_molecule",
+    "drug_mechanism_of_action",
+    "clinical_indication",
+    "disease_phenotype"
+  ]
+}
